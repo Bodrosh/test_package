@@ -26,6 +26,7 @@ class PackageServiceProvider extends ServiceProvider
         dump(11);
         dump(22);
         dump(33);
+        dump(44);
         // Загрузка маршрутов, если есть
 //        if (file_exists(__DIR__.'/../routes/web.php')) {
 //            $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
