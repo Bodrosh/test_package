@@ -1,0 +1,21 @@
+{
+  "name": "bodrosh/test_package",
+  "description": "This is a sample package for Laravel",
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bodrosh\\TestPackage\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bodrosh\\TestPackage\\PackageServiceProvider"
+      ]
+    }
+  }
+}
